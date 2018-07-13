@@ -1,0 +1,8 @@
+template_path: templates/vpc.py
+sceptre_user_data:
+  vpc_name: eks-vpc
+  cidr_block: 10.0.0.0/22
+  public_subnet_a: 10.0.0.0/24
+  public_subnet_b: 10.0.1.0/24
+  public_subnet_c: 10.0.2.0/24
+
